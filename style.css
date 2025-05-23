@@ -1,0 +1,50 @@
+
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #00f0ff;
+    padding-bottom: 5px;
+}
+
+.main-img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.downloads {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: block;
+    background-color: #00f0ff;
+    color: #000000;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #00c0cc;
+}
